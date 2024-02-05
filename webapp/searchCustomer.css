@@ -1,0 +1,76 @@
+/* searchCustomer.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Background color */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Dark text color for heading */
+}
+
+form {
+    text-align: center;
+    margin: 20px 0; /* Add margin for better spacing */
+}
+
+label, select, input {
+    margin: 5px; /* Add margin to create space between elements */
+}
+
+/* Style for the search button */
+.search-btn {
+    background-color: #ff6347; /* Red background color for search button */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto; /* Center the table on the page */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Header background color */
+}
+
+/* Style for edit and delete links */
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+/* Edit link style */
+a.edit {
+    background-color: #008000; /* Green background color for edit link */
+    color: #fff; /* White text color */
+    margin-right: 5px; /* Add right margin for space */
+}
+
+/* Delete link style */
+a.delete {
+    background-color: #ff0000; /* Red background color for delete link */
+    color: #fff; /* White text color */
+    margin-left: 5px; /* Add left margin for space */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Add more styles as needed */

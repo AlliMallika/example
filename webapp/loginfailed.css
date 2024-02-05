@@ -1,0 +1,35 @@
+/* loginfailed.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Smoke background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000; /* Red color for error message */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+.login-link {
+    text-align: center;
+    display: block;
+    background-color: #2ecc71; /* Green color for login link */
+    text-decoration: none;
+    color: #000000; /* Black text color */
+    padding: 10px 20px; /* Add padding for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+    margin-top: 20px;
+}
+
+.login-link:hover {
+    background-color: #1f78cb; /* Darker blue on hover */
+}
+
+/* Add more styles as needed */
